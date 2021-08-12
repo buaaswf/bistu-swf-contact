@@ -7,5 +7,6 @@
  JDK 14
  
 # MVC pattern with JSP+Servlet+JavaBean+JDBC
+JSP in updated to html
 
 
