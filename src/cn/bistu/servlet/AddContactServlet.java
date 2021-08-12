@@ -44,7 +44,7 @@ public class AddContactServlet extends HttpServlet {
         } catch (NameRepeatException e) {
             //处理自定义业务异常
             request.setAttribute("message",e.getMessage());
-            request.getRequestDispatcher("/addContact.jsp").forward(request,response);
+            request.getRequestDispatcher("/addContact.html").forward(request,response);
             return;
         }
         //3.跳转到查询联系人页面

@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<center><h3>查询所有联系人(jsp版本)</h3></center>
+<center><h3>查询所有联系人</h3></center>
 <table align="center" border="1" width="700px">
 	<tr>
     	<th>编号</th>
@@ -44,7 +44,7 @@
     </tr>
     </c:forEach>
     <tr>
-    	<td colspan="8" align="center"><a href="${pageContext.request.contextPath }/addContact.jsp">[添加联系人]</a></td>
+    	<td colspan="8" align="center"><a href="${pageContext.request.contextPath }/addContact.html">[添加联系人]</a></td>
     </tr>
 </table>
 </body>
